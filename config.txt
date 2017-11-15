@@ -115,8 +115,8 @@
  *
  * We feature pools up to 1MH/s. For a more complete list see M5M400's pool list at www.moneropools.com
  */
-"pool_address" : "xmr-eu1.nanopool.org:14444",
-"wallet_address" : "4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRwomJGYVSUKMaznsGQ.GCP/kidskeith@gmail.com",
+"pool_address" : "electroneum.hashparty.io:5555",
+"wallet_address" : "etnk1cRBnR51hwtSJbWbcN11qKQnmc7TcDTGCLiMUi5qUvc9GSu48vzJauhP5k43xMKNyCf85CpwfX4pVSiH8UtK2156sa3iDS",
 "pool_password" : "x",
 
 /*
@@ -133,7 +133,7 @@
  * giveup_limit - Limit how many times we try to reconnect to the pool. Zero means no limit. Note that stak miners
  *                don't mine while the connection is lost, so your computer's power usage goes down to idle.
  */
-"call_timeout" : 10,
+"call_timeout" : 30,
 "retry_time" : 10,
 "giveup_limit" : 0,
 
